@@ -1,4 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
+
+body {
+  font-family: 'Rubik', sans-serif;
+  color: #333;
+  font-size: 16px;
+  background-color: #fff;
+  font-weight: 400; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333; }
+
+header {
+  background: #072f4f; }
+  header .borderbtm {
+    border-bottom: 1px solid #054171;
+    padding: 10px 0;
+    margin-right: -15px;
+    margin-left: -15px; }
+  header .mainHeadertop .top_hed_pra {
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-left: 0; }
+    header .mainHeadertop .top_hed_pra li {
+      display: inline-block;
+      padding: 5px;
+      color: #fff;
+      font-size: 16px; }
+      header .mainHeadertop .top_hed_pra li .fa {
+        padding-right: 10px; }
+      header .mainHeadertop .top_hed_pra li:first-child {
+        margin-right: 27px; }
+  header .mainHeadertop .top_hed_icon {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    margin-bottom: 0; }
+    header .mainHeadertop .top_hed_icon .iconlist {
+      padding: 5px;
+      color: #fff; }
+      header .mainHeadertop .top_hed_icon .iconlist a {
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0.2);
+        display: block;
+        line-height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s; }
+  header .header_main .logo {
+    margin-top: 18px;
+    max-width: 230px; }
+  header .header_main .main-menu {
+    padding-left: 0; }
+    header .header_main .main-menu .nav_mobile_menu {
+      margin: 35px 0; }
+      header .header_main .main-menu .nav_mobile_menu .list_itm {
+        display: block;
+        position: relative;
+        padding: 0 10px; }
+        header .header_main .main-menu .nav_mobile_menu .list_itm a {
+          font-size: 18px;
+          font-weight: 400;
+          color: #ffffff;
+          letter-spacing: 0;
+          text-transform: uppercase; }
+  header .header_main .search_main {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    header .header_main .search_main .search {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      -webkit-transform: translatey(-50%);
+      -ms-transform: translatey(-50%);
+      transform: translatey(-50%); }
+      header .header_main .search_main .search .fa {
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff; }

@@ -1,0 +1,97 @@
+header {
+    background: #072f4f;
+    .borderbtm {
+        border-bottom: 1px solid #054171;
+        padding: 10px 0;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    .mainHeadertop {
+        .top_hed_pra {
+            margin-top: 4px;
+            margin-bottom: 0;
+            padding-left: 0;
+            li {
+                display: inline-block;
+                padding: 5px;
+                color: #fff;
+                font-size: 16px;
+                .fa {
+                    padding-right: 10px;
+                }
+                &:first-child {
+                    margin-right: 27px;
+                }
+            }
+            
+            
+
+        }
+        .top_hed_icon {
+            list-style: none;
+            display: flex;
+            float: right;
+            margin-bottom: 0;
+            .iconlist {
+                padding: 5px;
+                color: #fff;
+                a {
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    background: rgba(255, 255, 255, .20);
+                    display: block;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 50%;
+                    transition: all 0.2s;
+                }
+            }
+        }
+    }
+    .header_main {
+        .logo{
+            margin-top: 18px;
+            max-width: 230px;
+        }
+        .main-menu {
+            padding-left: 0;
+            .nav_mobile_menu{
+                margin: 35px 0;
+                .list_itm  {
+                    display: block;
+                    position: relative;
+                    padding: 0 10px;
+                    a {
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: #ffffff;
+                        letter-spacing: 0;
+                        text-transform: uppercase;
+                    }
+                   
+                }
+            }
+        }
+        .search_main {
+            margin: 0;
+            position: relative;
+            width: 100%;
+            height: 100%;
+            .search {
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translatey(-50%);
+                .fa {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: #ffffff;
+                }
+                
+            }
+
+        }
+        
+    }
+}
