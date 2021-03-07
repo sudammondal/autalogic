@@ -20,6 +20,14 @@ ul {
   display: flex;
   color: #333; }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333; }
+
 header {
   background: #072f4f; }
   header .borderbtm {
