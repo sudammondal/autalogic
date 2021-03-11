@@ -1,0 +1,118 @@
+.banner_worp {
+    background-image: url(../imgs/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 1349px;
+    transition: opacity 500ms linear 0s;
+    .banner_hed {
+        position: relative;
+        .banner_item {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            .ban_hed {
+                font-size: 56px;
+                font-weight: 600;
+                color: #fff;
+                line-height: 90px;
+                margin: 10px 0 20px;
+                
+            }
+            .banner_pra {
+                font-size: 20px;
+                color: #fff;
+                line-height: 30px;
+                font-weight: 300;
+                margin-bottom: 40px;
+                line-height: 1.7;
+
+            }
+            .vedio_button {
+                small {
+                    float: left;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #fff;
+                    margin-top: 12px;
+                }
+                a {
+                    display: inline-block;
+                    margin-left: 15px;
+                    i {    
+                        font-size: 45px;
+                        color: #fff;
+                    }
+
+
+                }
+            }
+        }
+    }
+    .banner_fromhed {
+        width: 400px;
+        height: 610px;
+        position: absolute;
+        bottom: -210px;
+        right: 15px;
+        z-index: 999;
+        background-color: rgba(7, 47, 79, 0.76);
+        padding: 50px 40px;
+        .from_main {
+            .bannfrom_hed {
+                font-size: 24px;
+                font-weight: 600;
+                color: #fff;
+                margin-bottom: 20px;
+            }
+            .banndrfrom_pra {
+                color: #fffefe;
+                margin-bottom: 30px;
+                line-height: 30px;
+                font-size: 15px;
+            }
+            .bannerFrom {
+
+            }
+            .from_item {
+                margin-bottom: 30px;
+                .form-control {
+                    width: 100%;
+                    padding-bottom: 30px;
+                    color: #fff !important;
+                    border: 1px solid rgba(255, 255, 255, .38);
+                    height: 50px;
+                    background: rgba(255, 255, 255, .02);
+                    padding-bottom: 0;
+                    padding-top: 0;
+                    &:focus {
+                        outline: none;
+                        color:#ffffff;
+                        box-shadow: none;
+                        border: 1px solid rgba(255, 255, 255, .38);
+                        
+                    }
+                    &::placeholder {
+                        color: #ffffff;
+                    }
+                }
+            }
+            textarea{
+                .form-control {
+
+                }
+            }
+            .submit_btn {
+                .theme_btn {
+
+                }
+            }
+        }
+    }
+}

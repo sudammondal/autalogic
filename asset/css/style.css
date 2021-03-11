@@ -7,8 +7,8 @@ body {
   font-family: 'Rubik', sans-serif;
   color: #333;
   font-size: 16px;
-  background-color: #fff;
-  font-weight: 400; }
+  font-weight: 400;
+  z-index: 0; }
 
 a {
   text-decoration: none; }
@@ -103,3 +103,98 @@ header {
         font-size: 18px;
         font-weight: 400;
         color: #ffffff; }
+
+.banner_worp {
+  background-image: url(../imgs/1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 1349px;
+  -webkit-transition: opacity 500ms linear 0s;
+  -o-transition: opacity 500ms linear 0s;
+  transition: opacity 500ms linear 0s; }
+  .banner_worp .banner_hed {
+    position: relative; }
+    .banner_worp .banner_hed .banner_item {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      display: block;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      height: 100vh; }
+      .banner_worp .banner_hed .banner_item .ban_hed {
+        font-size: 56px;
+        font-weight: 600;
+        color: #fff;
+        line-height: 90px;
+        margin: 10px 0 20px; }
+      .banner_worp .banner_hed .banner_item .banner_pra {
+        font-size: 20px;
+        color: #fff;
+        line-height: 30px;
+        font-weight: 300;
+        margin-bottom: 40px;
+        line-height: 1.7; }
+      .banner_worp .banner_hed .banner_item .vedio_button small {
+        float: left;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 12px; }
+      .banner_worp .banner_hed .banner_item .vedio_button a {
+        display: inline-block;
+        margin-left: 15px; }
+        .banner_worp .banner_hed .banner_item .vedio_button a i {
+          font-size: 45px;
+          color: #fff; }
+  .banner_worp .banner_fromhed {
+    width: 400px;
+    height: 610px;
+    position: absolute;
+    bottom: -210px;
+    right: 15px;
+    z-index: 999;
+    background-color: rgba(7, 47, 79, 0.76);
+    padding: 50px 40px; }
+    .banner_worp .banner_fromhed .from_main .bannfrom_hed {
+      font-size: 24px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 20px; }
+    .banner_worp .banner_fromhed .from_main .banndrfrom_pra {
+      color: #fffefe;
+      margin-bottom: 30px;
+      line-height: 30px;
+      font-size: 15px; }
+    .banner_worp .banner_fromhed .from_main .from_item {
+      margin-bottom: 30px; }
+      .banner_worp .banner_fromhed .from_main .from_item .form-control {
+        width: 100%;
+        padding-bottom: 30px;
+        color: #fff !important;
+        border: 1px solid rgba(255, 255, 255, 0.38);
+        height: 50px;
+        background: rgba(255, 255, 255, 0.02);
+        padding-bottom: 0;
+        padding-top: 0; }
+        .banner_worp .banner_fromhed .from_main .from_item .form-control:focus {
+          outline: none;
+          color: #ffffff;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+          border: 1px solid rgba(255, 255, 255, 0.38); }
+        .banner_worp .banner_fromhed .from_main .from_item .form-control::-webkit-input-placeholder {
+          color: #ffffff; }
+        .banner_worp .banner_fromhed .from_main .from_item .form-control:-ms-input-placeholder {
+          color: #ffffff; }
+        .banner_worp .banner_fromhed .from_main .from_item .form-control::-ms-input-placeholder {
+          color: #ffffff; }
+        .banner_worp .banner_fromhed .from_main .from_item .form-control::placeholder {
+          color: #ffffff; }

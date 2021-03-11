@@ -7,8 +7,10 @@ body {
     font-family: 'Rubik', sans-serif;
     color: #333;
     font-size: 16px;
-    background-color: #fff;
+    // background-color: #fff;
+    // background-color: #ddd;
     font-weight: 400;
+    z-index: 0;
     
 }
 a {text-decoration: none;}
@@ -22,6 +24,6 @@ h2,
 h3,
 h4,
 h5,
-h6,{
-    color:#333;
+h6{
+    color: #333;
 }
